@@ -1,13 +1,241 @@
-
 .wd-search_bar {
-    height: 30px;
+    height: 50px;
     line-height: 30px;
-    width: calc(100% - 90px);
+    width: 100%;
     border-radius: 50px;
-    background-color: darkgray;
-    color: white;
-    padding-left: 30px;
+    font-size: 15px;
+    border-width: 1px;
 }
+
+.wd-gear-changes {
+    color: #0c63e4;
+}
+
+.wd-top-tabs {
+    font-size: 15px;
+}
+
+.wd-main-image {
+    padding: 0px;
+    padding-top: 10px;
+    width: 100%;
+    height: 450px;
+}
+
+.wd-follow-text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: grey;
+}
+
+.wd-subject {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wd-time {
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+}
+
+.wd-subject-smaller {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.wd-small-pictures {
+    width: 70px;
+    height: 80px;
+}
+
+.wd-remove-bottom-scroll {
+    overflow-x: hidden;
+}
+
+.wd-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-round-edges {
+    border-radius: 15px;
+}
+
+.wd-no-top {
+    border-top-width: 0px;
+}
+
+.wd-size {
+    font-size: 15px;
+}
+
+.wd-padding-explore {
+    padding: 7px;
+    padding-left: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+wd-padding-top {
+    margin-top: 10px;
+}
+
+.wd-color {
+    color: black;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-left-align {
+    float: left;
+}
+
+.wd-who-to-follow {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-margins {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.wd-who-to-follow-pictures {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wd-padding-right {
+    padding-right: 0px;
+}
+
+.wd-padding-left {
+    padding-left: 0px;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+}
+
+.wd-padding-top {
+    padding-top: 0px;
+}
+
+.wd-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.wd-at {
+    color: black;
+    font-size: 13px;
+}
+
+
+.wd-padding-top-big {
+    padding-top: 7px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.btn-primary.wd-button {
+    background-color: white;
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: #8a8989;
+    border-width: 1px;
+}
+
+.btn-primary.wd-button-selected {
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: grey;
+    border-width: 1px;
+    border-top: 0px;
+}
+
+.btn-primary.wd-no-top {
+    border-top-width: 0px;
+}
+
+.border-grey.wd-no-top {
+    border-top-width: 0px;
+}
+
+.btn-primary.tuit-button {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wd-button-center {
+    background-color: white;
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: #8a8989;
+    border-width: 1px;
+    text-align: center;
+}
+
+
+.wd-spacex-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wd-icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: black;
+    z-index: 2;
+    size: 10px;
+}
+
+.wd-text-area {
+    position: absolute;
+    z-index: 1;
+}
+
+.wd-text-container {
+    white-space: nowrap;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    padding: 10px;
+}
+
+
+
 
 .wd-site_color {
     background-color: black;
@@ -48,12 +276,6 @@
     font-size: 13px;
 }
 
-.wd-border {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(47, 51, 54);
-    padding: 10px;
-}
 
 .wd-under-border {
     border-style: solid;
@@ -108,3 +330,5 @@
     margin-top: 12px;
 
 }
+
+
