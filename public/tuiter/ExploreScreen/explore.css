@@ -1,0 +1,23 @@
+.wd-no-rounding {
+    border-radius: 0px;
+}
+
+.wd-no-bottom-rounding {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.wd-no-top-rounding {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.wd-who-to-follow-pictures {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wd-white {
+    color: white;
+}
