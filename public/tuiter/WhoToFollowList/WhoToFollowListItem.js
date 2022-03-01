@@ -1,6 +1,6 @@
 const WhoToFollowListItem = (who) => {
     return (`
-            <div class="list-group">
+            <div class="list-group wd-no-rounding">
                 <div class="list-group-item">
                     <div class="row">
                        <div class="col-xxl-2 col-xl-2 col-lg-2">
@@ -9,12 +9,12 @@ const WhoToFollowListItem = (who) => {
                     
                        <div class="col-xxl-6 col-xl-6 col-lg-6">
                             <div class="row">
-                            <div class="wd-white fw-bold">${who.userName} 
+                            <div class="wd-white fw-bold wd-smaller">${who.userName} 
                                 <i class="fa-solid fa-circle-check wd-white"></i>
                             </div>
                             </div>
                             <div class="row">
-                                <div class="wd-white">@${who.handle}</div>
+                                <div class="wd-white wd-smaller">@${who.handle}</div>
                             </div>
                         </div>
                     
