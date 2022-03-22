@@ -1,5 +1,5 @@
 [
-    {   "avatar": "java.png",
+    {   "avatar": "./images/java.png",
         "username": "Java", "handle": "Java" },
     {   "avatar": "./images/relativityspace.png",
         "username": "Relativity Space",
