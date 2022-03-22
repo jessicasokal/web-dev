@@ -1,0 +1,283 @@
+.wd-no-rounding {
+    border-radius: 0px;
+}
+
+.wd-no-bottom-rounding {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.wd-no-top-rounding {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.wd-who-to-follow-pictures {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-small-pictures {
+    width: 70px;
+    height: 80px;
+}
+
+.wd-topic-text {
+    color: darkgrey;
+}
+
+.wd-subject-text {
+    font-weight: bold;
+}
+
+.wd-not-bold {
+    font-weight: normal;
+}
+
+.wd-smaller {
+    font-size: 15px;
+}
+
+.wd-no-rounding {
+    border-radius: 0px;
+}
+
+.wd-smaller-tabs {
+    font-size: 14px;
+}
+
+.wd-bottom-rounding {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.wd-search_bar {
+    height: 50px;
+    line-height: 30px;
+    width: calc(100% - 10px);
+    border-radius: 50px;
+    font-size: 15px;
+    border-width: 1px;
+}
+
+.wd-gear-changes {
+    color: #0c63e4;
+}
+
+.wd-top-tabs {
+    font-size: 15px;
+}
+
+.wd-main-image {
+    width: 100%;
+    height: 450px;
+}
+
+.wd-follow-text {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: grey;
+}
+
+.wd-subject {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.wd-time {
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+}
+
+.wd-subject-smaller {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.wd-small-pictures {
+    width: 70px;
+    height: 80px;
+}
+
+.wd-remove-bottom-scroll {
+    overflow-x: hidden;
+}
+
+.wd-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-round-edges {
+    border-radius: 15px;
+}
+
+.wd-no-top {
+    border-top-width: 0px;
+}
+
+.wd-size {
+    font-size: 15px;
+}
+
+.wd-padding-explore {
+    padding: 7px;
+    padding-left: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+wd-padding-top {
+    margin-top: 10px;
+}
+
+.wd-color {
+    color: black;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-left-align {
+    float: left;
+}
+
+.wd-who-to-follow {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-margins {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.wd-who-to-follow-pictures {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wd-padding-right {
+    padding-right: 0px;
+}
+
+.wd-padding-left {
+    padding-left: 0px;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+}
+
+.wd-padding-top {
+    padding-top: 0px;
+}
+
+.wd-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.wd-at {
+    color: black;
+    font-size: 13px;
+}
+
+
+.wd-padding-top-big {
+    padding-top: 7px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.btn-primary.wd-button {
+    background-color: white;
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: #8a8989;
+    border-width: 1px;
+}
+
+.btn-primary.wd-button-selected {
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: grey;
+    border-width: 1px;
+    border-top: 0px;
+}
+
+.wd-selected {
+    background-color: #0088DD !important;
+}
+
+.btn-primary.wd-no-top {
+    border-top-width: 0px;
+}
+
+.border-grey.wd-no-top {
+    border-top-width: 0px;
+}
+
+.btn-primary.tuit-button {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wd-button-center {
+    background-color: white;
+    height: 35px;
+    border-radius: 0%;
+    width: 100%;
+    border-color: #8a8989;
+    border-width: 1px;
+    text-align: center;
+}
+
+
+.wd-spacex-text {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.wd-icon {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: black;
+    z-index: 2;
+    size: 10px;
+}
+
+.wd-text-area {
+    position: absolute;
+    z-index: 1;
+}
+
+.wd-text-container {
+    white-space: nowrap;
+    position: relative;
+}
+
+
+
+
