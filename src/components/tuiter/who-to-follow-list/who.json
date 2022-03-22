@@ -1,13 +1,13 @@
 [
     {   "avatar": "java.png",
         "username": "Java", "handle": "Java" },
-    {   "avatar": "relativityspace.png",
+    {   "avatar": "./images/relativityspace.png",
         "username": "Relativity Space",
         "handle": "relativityspace" },
-    {   "avatar": "virgingalactic.png",
+    {   "avatar": "./images/virgingalactic.png",
         "username": "Virgin Galactic",
         "handle": "virgingalactic" },
-    {   "avatar": "nasa.jpg",
+    {   "avatar": "./images/nasa.jpg",
         "username": "NASA", "handle": "NASA" },
-    {   "avatar": "tesla.jpeg",
+    {   "avatar": "./images/tesla.jpeg",
         "username": "Tesla", "handle": "Tesla" } ]
