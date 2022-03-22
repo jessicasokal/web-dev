@@ -24,7 +24,7 @@ const PostSummaryItem = (
                 <div className="wd-subject-text">{post.title}</div>
             </div>
             <div className="col-2 pt-2 pb-1 ">
-                <img src={post.image} className="wd-small-pictures float-end"/>
+                <img src={post.image} className="wd-small-pictures float-end" alt=""/>
             </div>
         </div>
     </div>
