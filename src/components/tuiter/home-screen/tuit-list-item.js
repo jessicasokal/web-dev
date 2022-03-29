@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom";
 import '../explore.css';
 import {useDispatch} from 'react-redux';
 import TuitStats from "./tuit-stats";
