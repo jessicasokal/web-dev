@@ -278,6 +278,22 @@ wd-padding-top {
     position: relative;
 }
 
+.wd-home-images {
+    border-radius: 25px;
+    width: 100%;
+    height: 450px;
+}
 
+.wd-whats-happening {
+    background-color: black !important;
+    border-bottom-color: grey !important;
+}
 
+.wd-tweet-button {
+    float: right;
+    font-weight: bold;
+}
 
+.wd-blue {
+    color: steelblue;
+}
