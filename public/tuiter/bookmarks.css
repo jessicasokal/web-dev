@@ -1,0 +1,156 @@
+.wd-site_color {
+    background-color: black;
+}
+
+.wd-title {
+    color: white;
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-user_at {
+    color: rgb(110,118,125);
+    font-size: 13px;
+    font-family: "Helvetica";
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.wd-solid_border {
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(47, 51, 54);
+    border-right-color: rgb(47, 51, 54);
+    border-bottom-color: rgb(47, 51, 54);
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-circle_image {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    float: left;
+    max-width: 100%;
+}
+
+.wd-user_text {
+    color: white;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wd-user_handle {
+    font-weight: normal;
+    color: rgb(110,118,125);
+    font-family: "Helvetica";
+    font-size: 15px;
+}
+
+.wd-first_col {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.wd-content {
+    width: 100%;
+    max-width: 506px;
+    font-family: "Helvetica";
+    color: white;
+    margin-right: 16px;
+}
+
+.wd-grid-container {
+    display: grid;
+    grid-template-columns: 60px calc(100% - 60px);
+}
+
+.wd-grid-space {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.wd-grid-space-written {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.wd-main-content {
+    color: white;
+    font-family: "Helvetica";
+    font-size: 15px;
+    max-width: 506px;
+    width: 100%;
+    padding-top: 5px;
+    padding-right: 16px;
+    line-height: 20px;
+}
+
+.wd-image-rounded {
+    height: 264px;
+    width: 504px;
+    border-color: rgb(47, 51, 54);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.wd-header-text {
+    font-weight: bold;
+    color: white;
+    font-family: "Helvetica";
+    max-width: 504px;
+    font-size: 15px;
+    padding: 12px;
+    padding-bottom: 0px;
+}
+
+.wd-subheader-text {
+    color: rgb(110,118,125);
+    font-family: "Helvetica";
+    max-width: 504px;
+    font-size: 15px;
+    padding: 12px;
+
+}
+
+.wd-content-border {
+    border-width: 1px;
+    border-color: rgb(110,118,125);
+    border-radius: 15px;
+    border-style: solid;
+    max-width: 504px;
+    margin-top: 12px;
+}
+
+.wd-grid-container-even-spacing {
+    padding: 12px;
+    max-width: 504px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.wd-red-liked {
+    color: red;
+    font-family: "Helvetica";
+}
+
+.wd-no-link {
+    color: rgb(110,118,125);
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+.wd-no-link-red {
+    color: red;
+    text-decoration: none;
+    padding-left: 12px;
+}
+

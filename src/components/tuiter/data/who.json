@@ -1,0 +1,13 @@
+[
+    {   "avatar": "./images/java.png",
+        "username": "Java", "handle": "Java" },
+    {   "avatar": "./images/relativityspace.png",
+        "username": "Relativity Space",
+        "handle": "relativityspace" },
+    {   "avatar": "./images/virgingalactic.png",
+        "username": "Virgin Galactic",
+        "handle": "virgingalactic" },
+    {   "avatar": "./images/nasa.jpg",
+        "username": "NASA", "handle": "NASA" },
+    {   "avatar": "./images/tesla.jpeg",
+        "username": "Tesla", "handle": "Tesla" } ]

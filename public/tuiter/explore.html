@@ -3,8 +3,322 @@
 <head>
   <meta charset="UTF-8">
   <title>Explore</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+  <link href="explore.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/17de741177.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
 </head>
 <body>
+<div class="container-fluid">
+  <div class="row g-0 m-2">
 
+    <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-1 col-sm-1">
+      <div class="d-none d-sm-block me-2">
+        <div>
+          <button class="btn btn-primary wd-button">
+            <i class="fa-brands fa-twitter wd-color float-start"></i>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='home.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start d-none d-sm-block"><i class="fa-solid fa-house-chimney"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Home</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='explore.html'"
+                  class="btn btn-primary wd-button-selected wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start d-none d-sm-block"><i class="fa-solid fa-hashtag" style="color: white"></i> </div>
+              <div class="d-none d-xl-block wd-color-white float-start ps-1">Explore</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='notifications.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-bell"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Notifications</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='messages.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-envelope"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Messages</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='bookmarks.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-bookmark"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Bookmarks</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='lists.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-list"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Lists</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='profile.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-user-astronaut"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">Profile</div>
+            </div>
+          </button>
+        </div>
+
+        <div>
+          <button onclick="location.href='more.html'"
+                  class="btn btn-primary wd-button wd-no-top" type="button">
+            <div>
+              <div class="wd-color float-start"><i class="fa-solid fa-circle-minus"></i></div>
+              <div class="d-none d-xl-block wd-color float-start ps-1">More</div>
+            </div>
+          </button>
+        </div>
+
+        <div class="mt-2">
+          <button onclick="location.href='tuit.html'" class="btn btn-primary tuit-button" type="button">
+            <div>
+              Tuit
+            </div>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-11 col-sm-11">
+      <div class="d-none d-sm-block">
+        <div class="row ms-2 me-2 ps-0 pe-0 mb-2">
+          <div class="col-11 pe-0 me-0">
+            <div class="wd-text-container">
+              <span class="wd-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <input type="text" placeholder="Search Tuiter" class="ps-5 wd-search_bar wd-text-area">
+            </div>
+          </div>
+          <div class="col-1 pt-1 float-end">
+            <i class="fa-solid fa-gear fa-2x wd-gear-changes"></i>
+          </div>
+        </div>
+
+        <div class="row ms-2 me-2 ps-0 pe-0">
+          <ul class="nav nav-tabs wd-top-tabs m-2 pt-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="for-you.html">For you</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trending.html">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row ms-2 me-2 ps-0 pe-0">
+          <div class="card p-0 m-0 border-0">
+            <img src="../labs/a4/bootstrap/starship.jpg" alt="SpaceX's Starship" class="wd-main-image card-img"/>
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h5 class="ps-1 mt-0 pt-0 wd-color-white wd-spacex-text">SpaceX's Starship</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="row border border-grey wd-no-top ms-2 me-2 ps-0 pe-0">
+          <div class="col-10 p-2 ps-3">
+            <div class="wd-topic">Web Development</div>
+            <div class="wd-subject">ReactJS <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-time">- 2h</span></div>
+            <div class="wd-subject-smaller">React.js is a component based front end library that makes it very easy to build
+              Single Page Applications or SPAs</div>
+          </div>
+          <div class="col-2 p-2 pe-3">
+            <img src="reactjs.png" alt="ReactJS" class="wd-small-pictures float-end"/>
+          </div>
+        </div>
+
+        <div class="row border border-grey wd-no-top ms-2 me-2 ps-0 pe-0">
+          <div class="col-10 p-2 ps-3">
+            <div class="wd-subject">JavaScript <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-time">- 2h</span></div>
+            <div class="wd-subject-smaller">JavaScript is a programming language that can run on
+              browsers as well as desktops</div>
+            <div class="wd-topic">123K Tweets</div>
+          </div>
+          <div class="col-2 p-2 pe-3">
+            <img src="javascript.png" alt="JavaScript" class="wd-small-pictures wd-round-edges float-end"/>
+          </div>
+        </div>
+
+        <div class="row border border-grey wd-no-top ms-2 me-2 ps-0 pe-0">
+          <div class="col-10 p-2 ps-3">
+            <div class="wd-topic">Web Development</div>
+            <div class="wd-subject">jQuery</div>
+            <div class="wd-topic">123K Tweets</div>
+          </div>
+          <div class="col-2 p-2 pe-3">
+            <img src="jquery.png" alt="jQuery" class="wd-small-pictures float-end"/>
+          </div>
+        </div>
+
+        <div class="row border border-grey wd-no-top ms-2 me-2 ps-0 pe-0">
+          <div class="col-10 p-2 ps-3">
+            <div class="wd-topic">Web Development</div>
+            <div class="wd-subject">NodeJS <i class="fa-solid fa-circle-check"></i>
+              <span class="wd-time">- 2h</span></div>
+            <div class="wd-topic">123K Tweets</div>
+          </div>
+          <div class="col-2 p-2 pe-3">
+            <img src="nodejs.png" alt="NodeJS" class="wd-small-pictures float-end"/>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="col-xxl-3 col-xl-3 col-lg-4">
+      <div class="d-none d-lg-block">
+        <div class="row border border-grey ms-2 me-2">
+          <div class="wd-who-to-follow p-2 ps-3">
+            Who to follow
+          </div>
+        </div>
+
+
+      <div class="row border border-grey ms-2 me-2">
+        <div class="col-xxl-2 col-xl-3 col-lg-2">
+          <img src="java.png" alt="Java" class="wd-who-to-follow-pictures m-1 me-3"/>
+        </div>
+
+        <div class="col-xxl-7 col-xl-7 col-lg-8">
+          <div class="row">
+            <div class="wd-who-to-follow mt-2 ps-2 ms-0">Java <i class="fa-solid fa-circle-check"></i></div>
+          </div>
+          <div class="row">
+            <div class="wd-at mb-2 ps-2 ms-0">@Java</div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-2 col-lg-2">
+          <button class="btn btn-primary wd-follow-button float-end m-2 me-1">
+            Follow
+          </button>
+        </div>
+      </div>
+
+      <div class="row border border-grey ms-2 me-2">
+        <div class="col-xxl-2 col-xl-3 col-lg-2">
+          <img src="relativityspace.png" alt="Relativity Space" class="wd-who-to-follow-pictures m-1 me-3"/>
+        </div>
+        <div class="col-xxl-7 col-xl-7 col-lg-8">
+          <div class="row">
+            <div class="wd-who-to-follow mt-2 ps-2 ms-0">Relativity Space <i class="fa-solid fa-circle-check"></i></div>
+          </div>
+          <div class="row">
+            <div class="wd-at mb-2 ps-2 ms-0">@relativityspace</div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-2 col-lg-2">
+          <button class="btn btn-primary wd-follow-button float-end m-2 me-1">
+            Follow
+          </button>
+        </div>
+      </div>
+
+      <div class="row border border-grey ms-2 me-2">
+        <div class="col-xxl-2 col-xl-3 col-lg-2">
+          <img src="virgingalactic.png" alt="Virgin Galactic" class="wd-who-to-follow-pictures m-1 me-3"/>
+        </div>
+        <div class="col-xxl-7 col-xl-7 col-lg-8">
+          <div class="row">
+            <div class="wd-who-to-follow mt-2 ps-2 ms-0">Virgin Galactic <i class="fa-solid fa-circle-check"></i></div>
+          </div>
+          <div class="row">
+            <div class="wd-at mb-2 ps-2 ms-0">@virgingalactic</div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-2 col-lg-2">
+          <button class="btn btn-primary wd-follow-button float-end m-2 me-1">
+            Follow
+          </button>
+        </div>
+      </div>
+
+        <div class="row border border-grey ms-2 me-2">
+          <div class="col-xxl-2 col-xl-3 col-lg-2">
+            <img src="nasa.jpg" alt="NASA" class="wd-who-to-follow-pictures m-1 me-3"/>
+          </div>
+          <div class="col-xxl-7 col-xl-7 col-lg-8">
+            <div class="row">
+              <div class="wd-who-to-follow mt-2 ps-2 ms-0">NASA <i class="fa-solid fa-circle-check"></i></div>
+            </div>
+            <div class="row">
+              <div class="wd-at mb-2 ps-2 ms-0">@nasa</div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-2 col-lg-2">
+            <button class="btn btn-primary wd-follow-button float-end m-2 me-1">
+              Follow
+            </button>
+          </div>
+        </div>
+
+        <div class="row border border-grey ms-2 me-2">
+          <div class="col-xxl-2 col-xl-3 col-lg-2">
+            <img src="tesla.jpeg" alt="Tesla" class="wd-who-to-follow-pictures m-1 me-3"/>
+          </div>
+          <div class="col-xxl-7 col-xl-7 col-lg-8">
+            <div class="row">
+              <div class="wd-who-to-follow mt-2 ps-2 ms-0">Tesla <i class="fa-solid fa-circle-check"></i></div>
+            </div>
+            <div class="row">
+              <div class="wd-at mb-2 ps-2 ms-0">@Tesla</div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-2 col-lg-2">
+            <button class="btn btn-primary wd-follow-button float-end m-2 me-1">
+              Follow
+            </button>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+
+  </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,28 @@
+[
+    { "name": "",               "icon": "fab fa-twitter",
+        "link": "../../../public/tuiter/tuit.html"
+    },
+    { "name": "Home",   "icon": "fa-solid fa-house-chimney",
+        "link": "../../../public/tuiter/home.html"
+    },
+    { "name": "Explore",       "icon": "fa-solid fa-hashtag",
+        "link": "../../../public/tuiter/explore.html"
+    },
+    { "name": "Notifications",       "icon": "fa-solid fa-bell",
+        "link": "../../../public/tuiter/notificaions.html"
+    },
+    { "name": "Messages",       "icon": "fa-solid fa-envelope",
+        "link": "../../../public/tuiter/messages.html"},
+    { "name": "Bookmarks",       "icon": "fa-solid fa-bookmark",
+        "link": "../../../public/tuiter/bookmarks.html"
+    },
+    { "name": "Lists",       "icon": "fa-solid fa-list",
+        "link": "../../../public/tuiter/lists.html"
+    },
+    { "name": "Profile",       "icon": "fa-solid fa-user-astronaut",
+        "link": "../../../public/tuiter/profile.html"
+    },
+    { "name": "More",       "icon": "fa-solid fa-circle-minus",
+        "link":"../../../public/tuiter/more.html"
+    }
+]

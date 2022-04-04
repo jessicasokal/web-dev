@@ -1,0 +1,57 @@
+.wd-no-rounding {
+    border-radius: 0px;
+}
+
+.wd-no-bottom-rounding {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.wd-no-top-rounding {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.wd-who-to-follow-pictures {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.wd-white {
+    color: white;
+}
+
+.wd-small-pictures {
+    width: 70px;
+    height: 80px;
+}
+
+.wd-topic-text {
+    color: darkgrey;
+}
+
+.wd-subject-text {
+    font-weight: bold;
+}
+
+.wd-not-bold {
+    font-weight: normal;
+}
+
+.wd-smaller {
+    font-size: 15px;
+}
+
+.wd-no-rounding {
+    border-radius: 0px;
+}
+
+.wd-smaller-tabs {
+    font-size: 14px;
+}
+
+.wd-bottom-rounding {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
