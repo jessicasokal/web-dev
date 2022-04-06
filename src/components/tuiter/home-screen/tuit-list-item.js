@@ -1,12 +1,11 @@
 import '../explore.css';
 import {useDispatch} from 'react-redux';
 import TuitStats from "./tuit-stats";
+import {deleteTuit}
+    from "../../../actions/tuits-actions";
 
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
 
     return (
         <li className="list-group-item">
@@ -19,10 +18,9 @@ const TuitItem = ({tuit}) => {
                         <div>
                             <div><span className='wd-subject-text'>{tuit.postedBy.username}</span>
                                 <span className={'wd-topic-text ps-2'}>{`@${tuit.handle}`}</span>
-                                <i onClick={() =>
-                                    deleteTuit(tuit)}
-                                   className="fas fa-remove
-                  fa-pull-right"></i></div>
+                                <i className="fas fa-remove float-end"
+                                   onClick={() => deleteTuit(
+                                       dispatch, tuit)}/></div>
 
                         </div>
                         <div>

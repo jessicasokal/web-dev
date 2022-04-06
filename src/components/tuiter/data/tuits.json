@@ -19,7 +19,9 @@
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "likes": 345,
+    "dislikes": 345
   },
   {
     "_id": "567",
@@ -42,7 +44,9 @@
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "likes": 345,
+    "dislikes": 345
   },
   {
     "_id": "234",
@@ -66,7 +70,9 @@
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "likes": 345,
+    "dislikes": 345
   },
   {
     "_id": "345",
@@ -89,7 +95,9 @@
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "likes": 345,
+    "dislikes": 345
   },
   {
     "_id": "456",
@@ -112,6 +120,8 @@
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+    },
+    "likes": 345,
+    "dislikes": 345
   }
 ]
