@@ -12,7 +12,7 @@ const TuitList = () => {
     const dispatch = useDispatch();
     useEffect(() =>
             findAllTuits(dispatch),
-        []);
+        [dispatch]);
 
     return (
         <ul className="list-group">
